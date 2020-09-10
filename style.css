@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #539DC2;
+  }
+
 h1,
 h2,
 h3,
@@ -60,10 +64,10 @@ html {
 section.bluetooth .icon {
     width: 150px;
     height: 150px;
-    border: 1px solid #539DC2;
+    border: 1px solid var(--primary-color);
     font-size: 30px;
     border-radius: 50%;
-    color: #539DC2;
+    color: var(--primary-color);
     position: relative;
 }
 
