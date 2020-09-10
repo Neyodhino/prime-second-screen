@@ -1,0 +1,155 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px
+}
+.container {
+    padding: 3rem 2rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 430px) {
+    .container {
+        width: 85%;
+    }
+}
+
+
+.bluetooth {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    box-shadow: 0px 2px 19px -10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+@media only screen and (min-width: 560px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    .bluetooth {
+        padding: 2rem 4rem;
+    }
+}
+section.bluetooth .icon {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #539DC2;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #539DC2;
+    position: relative;
+}
+
+section.bluetooth .icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+section.bluetooth .content {
+    align-self: center;
+}
+
+section.bluetooth .content h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.bluetooth-off {
+    font-size: 2.5rem;
+    color: #8f8f8fd0;
+}
+
+
+section.bluetooth .content span {
+    font-size: 2rem;
+    color: black;
+}
+
+.icon__snippet {
+    margin-top: 20px;
+}
+
+.icon__snippet i {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.icon__footer {
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.icon__wrapper i{
+    font-size: 3rem;
+}
+
+.icon__wrapper p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+@media only screen and (min-width: 400px) {
+    .icon__snippet i {
+        margin-right: 34px;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .container {
+        width: 60%;
+        margin: auto;
+    }
+    .bluetooth {
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (min-width: 1175px) {
+    .container {
+        width: 40%;
+        margin: auto;
+    }
+    .icon__snippet i {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        width: 40%;
+        margin: auto;
+    }
+    .icon__snippet i {
+        margin-right: 40px;
+    }
+}
